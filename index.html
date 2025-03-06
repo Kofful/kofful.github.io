@@ -2,19 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>THE title</title>
+    <title> Результати пошуку «apple» — купити в інтернет магазині DEMO1</title>
     <meta name="robots" content="noindex, follow">
-    <meta name="description" content="【Searching «qwerty»】 — ✅">
+    <meta name="description" content="【Купити Результати пошуку «apple»】 — в Інтернет магазині DEMO1 ✅ В наявності товарів: 0 від ✈ Доставка ✅ Відгуки">
     <link rel="canonical" href="https://kofful.github.io/">
+    <link rel="alternate" hreflang="uk" href="https://kofful.github.io/">
     <link rel="alternate" hreflang="lv" href="https://kofful.github.io/lv/">
     <meta property="og:locale" content="ua_UA">
-    <meta property="og:site_name" content="Site name">
-    <meta property="og:title" content="Searching «qwerty»">
-    <meta property="og:url" content="https://kofful.github.io">
+    <meta property="og:site_name" content="DemoStore — демонстраційний інтернет-магазин">
+    <meta property="og:title" content="Результати пошуку «apple»">
+    <meta property="og:url" content="https://kofful.github.io/">
     <meta property="og:description" content="">
-    <meta property="og:type" content="site.type">
+    <meta property="og:type" content="product.group">
 </head>
 <body>
 Hello!
 </body>
+<script>
+    const metaElements = Array.from(document.getElementsByTagName('head')[0].getElementsByTagName('meta'));
+    metaElements.forEach(el => {
+        if (el.getAttribute('property') === 'og:title') {
+            el.setAttribute('content', 'Searching qwerty');
+        }
+    });
+</script>
 </html>
